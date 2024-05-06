@@ -146,7 +146,9 @@ header nav ul li a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: #333;
 }
-
+.project::last-of-type{
+  content: ""
+}
 #education {
   font-family: "Courier New", sans-serif;
   padding: 2rem;
@@ -179,6 +181,7 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap:20px;
 }
 
 .skill-item {
@@ -190,6 +193,9 @@ header nav ul li a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: white;
 }
+
+.skill-item ul{
+  list-style:none;
 
 /* About Section */
 #about {
